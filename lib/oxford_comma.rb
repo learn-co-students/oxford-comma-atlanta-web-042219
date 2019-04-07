@@ -4,8 +4,7 @@ def oxford_comma(array)
   if array.size == 1
     return array.join
   end
-  binding.pry
+  #binding.pry
   last = array.pop
-  array.join(",")
-  puts
+  puts "#{array.join(",")}, and #{last}"
 end
