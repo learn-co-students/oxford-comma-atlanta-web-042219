@@ -7,5 +7,5 @@ def oxford_comma(array)
   
   last = array.pop
   puts "#{array.join(",")} and #{last}"
-  binding.pry
+  #binding.pry
 end
