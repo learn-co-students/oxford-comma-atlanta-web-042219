@@ -6,6 +6,6 @@ def oxford_comma(array)
   end
   
   last = array.pop
-  puts "#{array.join(",")}, and #{last}"
+  puts "#{array.join(",")} and #{last}"
   binding.pry
 end
